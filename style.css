@@ -1,0 +1,50 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+
+}
+
+
+.header {
+    text-align: center;
+}
+
+.middle {
+    text-align: center;
+    background-color: #8EF9F3;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.middle p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer {
+    display: flex;
+    width: 90%;
+    height: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer div {
+    background-color: #FFD9CE;
+    margin: 2px 2px 2px 2px;
+    width: 33%;
+
+}
+
+.footer div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer div:nth-child(3) {
+    padding: 0 0 20px 3px;
+}
